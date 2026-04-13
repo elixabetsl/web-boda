@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elixabet & Javier | Nuestra Boda</title>
+    <meta
+      name="description"
+      content="Web de boda elegante y responsive con historia, ubicación, horario, preguntas frecuentes y formulario RSVP."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="inicio">
+      <div class="hero__overlay"></div>
+      <nav class="nav">
+        <a class="nav__brand" href="#inicio">Elixabet & Javier</a>
+        <div class="nav__links">
+          <a href="#historia">Historia</a>
+          <a href="#ubicacion">Info</a>
+          <a href="#horario">Horario</a>
+          <a href="#faq">FAQ</a>
+          <a href="#rsvp">RSVP</a>
+        </div>
+      </nav>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Nuestra boda</p>
+        <h1>Elixabet & Javier</h1>
+        <p class="hero__date">27 de junio de 2026</p>
+        <p class="hero__location">Akebaso, Atxondo, Bizkaia</p>
+        <div class="hero__actions">
+          <a class="hero__button" href="#rsvp">Confirmar asistencia</a>
+          <a class="hero__button hero__button--secondary" href="#ubicacion">
+            Ver información
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section--highlights">
+        <div class="container cards-grid cards-grid--three">
+          <article class="mini-card">
+            <p>Una celebración entre lo clásico y lo elegante.</p>
+          </article>
+          <article class="mini-card">
+            <p>Un día especial rodeados de familia y amigos.</p>
+          </article>
+          <article class="mini-card">
+            <p>Toda la información importante en un solo lugar.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--story" id="historia">
+        <div class="container split-layout">
+          <div class="split-copy">
+            <span class="section__kicker">Bienvenidos</span>
+            <h2>Un día muy especial para compartir con vosotros</h2>
+            <p class="story__text story__text--left">
+              Bienvenidos a nuestra boda. Nos hace muchísima ilusión celebrar
+              este día con las personas más importantes de nuestra vida y
+              compartir con vosotros un momento tan especial.
+            </p>
+            <p class="story__text story__text--left">
+              Hemos imaginado una celebración con un estilo clásico, elegante y
+              romántico, en un entorno precioso de Bizkaia, y estamos deseando
+              vivirlo junto a vosotros.
+            </p>
+          </div>
+
+          <aside class="info-card info-card--stacked">
+            <span class="section__kicker">Detalles</span>
+            <h3>Información principal</h3>
+            <ul class="info-list">
+              <li>
+                <span>Fecha</span>
+                <strong>27 de junio de 2026</strong>
+              </li>
+              <li>
+                <span>Lugar</span>
+                <strong>Akebaso</strong>
+              </li>
+              <li>
+                <span>Ciudad</span>
+                <strong>Atxondo, Bizkaia</strong>
+              </li>
+              <li>
+                <span>Mapa</span>
+                <strong>Añade aquí la dirección exacta o el enlace final.</strong>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section--details" id="ubicacion">
+        <div class="container">
+          <div class="section__heading">
+            <span class="section__kicker">Dónde y Cuándo</span>
+            <h2>La ceremonia y la celebración</h2>
+            <p class="section__intro">
+              Aquí tenéis los datos importantes para llegar con tranquilidad y
+              disfrutar el día desde el primer momento.
+            </p>
+          </div>
+
+          <div class="details-grid">
+            <article class="info-card">
+              <h3>Datos de la boda</h3>
+              <ul class="info-list">
+                <li>
+                  <span>Fecha</span>
+                  <strong>27 de junio de 2026</strong>
+                </li>
+                <li>
+                  <span>Hora orientativa</span>
+                  <strong>13:30 ceremonia</strong>
+                </li>
+                <li>
+                  <span>Lugar</span>
+                  <strong>Akebaso</strong>
+                </li>
+                <li>
+                  <span>Dirección</span>
+                  <strong>Atxondo, Bizkaia</strong>
+                </li>
+              </ul>
+            </article>
+
+            <article class="map-card">
+              <h3>Cómo llegar</h3>
+              <div class="map-frame">
+                <iframe
+                  title="Ubicación de la ceremonia"
+                  src="https://www.google.com/maps?q=Akebaso%20Atxondo%20Bizkaia&z=13&output=embed"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--schedule" id="horario">
+        <div class="container">
+          <div class="section__heading">
+            <span class="section__kicker">Horario</span>
+            <h2>Cómo será el día</h2>
+          </div>
+
+          <div class="schedule-grid">
+            <article class="timeline-card">
+              <p class="timeline-card__time">12:00</p>
+              <h3>Salida de autobuses</h3>
+              <p>Autobuses desde San Mamés hacia Akebaso.</p>
+            </article>
+            <article class="timeline-card">
+              <p class="timeline-card__time">13:30</p>
+              <h3>Ceremonia</h3>
+              <p>Comienza nuestra boda en Akebaso.</p>
+            </article>
+            <article class="timeline-card">
+              <p class="timeline-card__time">14:30</p>
+              <h3>Celebración</h3>
+              <p>Cóctel, comida y brindis con familia y amigos.</p>
+            </article>
+            <article class="timeline-card">
+              <p class="timeline-card__time">18:00</p>
+              <h3>Sobremesa</h3>
+              <p>Momentos tranquilos, fotos y reencuentros.</p>
+            </article>
+            <article class="timeline-card">
+              <p class="timeline-card__time">20:00</p>
+              <h3>Fiesta</h3>
+              <p>Baile, música y celebración.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--info" id="info">
+        <div class="container cards-grid cards-grid--two">
+          <article class="info-panel">
+            <span class="section__kicker">Viaje y alojamiento</span>
+            <h2>Información para invitados</h2>
+            <p>
+              Habrá autobuses desde San Mamés con salida aproximada a las 12:00
+              para facilitar la llegada de los invitados.
+            </p>
+            <p>
+              Más adelante podéis añadir hoteles recomendados, opciones de
+              parking y cualquier detalle práctico adicional para el día.
+            </p>
+          </article>
+
+          <article class="info-panel">
+            <span class="section__kicker">Lista de regalos</span>
+            <h2>Vuestra compañía es el mejor regalo</h2>
+            <p>
+              Lo más importante para nosotros es compartir este día con
+              vosotros. Esta sección puede quedarse así de sencilla o ampliarse
+              más adelante si queréis añadir información extra.
+            </p>
+            <p>
+              Mientras tanto, mantiene un tono elegante y equilibrado dentro de
+              la web.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--faq" id="faq">
+        <div class="container">
+          <div class="faq-shell">
+            <span class="section__kicker">Preguntas frecuentes</span>
+            <h2>Información útil</h2>
+            <div class="faq-list">
+              <article class="faq-item">
+                <h3>¿Cómo confirmo asistencia?</h3>
+                <p>
+                  Podrás confirmar tu asistencia a través del formulario RSVP de
+                  la web. También puedes escribirnos por WhatsApp a Elixabet
+                  (635 207 877) o Javier (697 290 590).
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>¿Hay dress code?</h3>
+                <p>
+                  La boda tendrá un estilo clásico y elegante. Más adelante
+                  añadiremos una recomendación más concreta sobre el código de
+                  vestimenta.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>¿Habrá transporte para los invitados?</h3>
+                <p>
+                  Sí, habrá autobuses desde San Mamés con salida aproximada a
+                  las 12:00. Más adelante añadiremos detalles exactos.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>¿Puedo comunicar alergias o intolerancias?</h3>
+                <p>
+                  Sí, podrás indicarlo en el formulario de confirmación o
+                  escribirnos directamente por WhatsApp.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--rsvp" id="rsvp">
+        <div class="container">
+          <div class="section__heading">
+            <span class="section__kicker">RSVP</span>
+            <h2>Confirma tu asistencia</h2>
+            <p class="section__intro">
+              Rellenad este formulario para ayudarnos a organizar cada detalle
+              con cariño. Si lo preferís, también podéis escribirnos por
+              WhatsApp.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <article class="contact-card">
+              <span>Elixabet</span>
+              <strong>635 207 877</strong>
+            </article>
+            <article class="contact-card">
+              <span>Javier</span>
+              <strong>697 290 590</strong>
+            </article>
+          </div>
+
+          <!--
+            Sustituye el valor de action por tu endpoint de Formspree, Netlify Forms
+            o el sistema que prefieras cuando quieras recibir respuestas reales.
+          -->
+          <form class="rsvp-form" action="#" method="post">
+            <div class="form-grid">
+              <label class="form-field">
+                <span>Nombre y apellidos</span>
+                <input
+                  type="text"
+                  name="nombre_apellidos"
+                  placeholder="Escribe tu nombre completo"
+                  required
+                />
+              </label>
+
+              <label class="form-field">
+                <span>Nombre y apellido de acompañante</span>
+                <input
+                  type="text"
+                  name="acompanante"
+                  placeholder="Si procede"
+                />
+              </label>
+            </div>
+
+            <fieldset class="form-fieldset">
+              <legend>¿Vienes a la boda?</legend>
+              <div class="choice-group">
+                <label class="choice-card">
+                  <input type="radio" name="boda" value="si" required />
+                  <span>Sí</span>
+                </label>
+                <label class="choice-card">
+                  <input type="radio" name="boda" value="no" required />
+                  <span>No</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-fieldset">
+              <legend>¿Vienes a la preboda?</legend>
+              <div class="choice-group">
+                <label class="choice-card">
+                  <input type="radio" name="preboda" value="si" required />
+                  <span>Sí</span>
+                </label>
+                <label class="choice-card">
+                  <input type="radio" name="preboda" value="no" required />
+                  <span>No</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-fieldset">
+              <legend>¿Necesitarás ir en autobús desde Bilbao?</legend>
+              <div class="choice-group">
+                <label class="choice-card">
+                  <input type="radio" name="autobus" value="si" required />
+                  <span>Sí</span>
+                </label>
+                <label class="choice-card">
+                  <input type="radio" name="autobus" value="no" required />
+                  <span>No</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <label class="form-field">
+              <span>¿Tienes alguna alergia o intolerancia u otro?</span>
+              <textarea
+                name="alergias"
+                rows="5"
+                placeholder="Cuéntanos aquí cualquier detalle importante"
+              ></textarea>
+            </label>
+
+            <button class="submit-button" type="submit">
+              Confirmar asistencia
+            </button>
+            <p class="form-note" id="form-note" aria-live="polite"></p>
+          </form>
+
+          <div class="gift-box">
+            <p>
+              El regalo más grande es vuestra compañía en este día tan especial,
+              pero si deseáis tener un detalle con nosotros, podéis hacerlo
+              aquí:
+            </p>
+            <div class="bank-account" aria-label="Número de cuenta">
+              ES00 0000 0000 0000 0000 0000
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const form = document.querySelector(".rsvp-form");
+      const note = document.getElementById("form-note");
+
+      form.addEventListener("submit", function (event) {
+        if (form.getAttribute("action") === "#") {
+          event.preventDefault();
+          note.textContent =
+            "Formulario de ejemplo listo. Conecta el atributo action a tu servicio para recibir las respuestas.";
+        }
+      });
+    </script>
+  </body>
+</html>
